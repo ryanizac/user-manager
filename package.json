@@ -12,5 +12,9 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "typescript": "^5.0.4"
+  }
 }
