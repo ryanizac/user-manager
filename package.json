@@ -1,0 +1,16 @@
+{
+  "name": "user-manager",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Ryan Izac <io.ryan@outlook.com>",
+  "description": "A Standalone Service or Integrated Library to manage users.",
+  "keywords": [
+    "users",
+    "manager",
+    "service"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {}
+}
