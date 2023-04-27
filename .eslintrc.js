@@ -1,0 +1,43 @@
+/** @type {import("eslint").ESLint.ConfigData} */
+module.exports = {
+  env: {
+    node: true,
+    es6: true,
+  },
+  root: true,
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+  ],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: "module",
+  },
+  rules: {
+    semi: ["error", "always"],
+    quotes: ["error", "double"],
+    "comma-dangle": ["error", "always-multiline"],
+    "arrow-parens": ["error", "always"],
+    indent: ["error", 2],
+    "max-len": ["error", { code: 80, comments: 60 }],
+    eqeqeq: "error",
+    "no-trailing-spaces": "error",
+    "no-multiple-empty-lines": ["error", { max: 1, maxEOF: 0 }],
+    "eol-last": ["error", "always"],
+    "padded-blocks": ["error", "never"],
+    "newline-before-return": "error",
+    "newline-after-var": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "object-curly-newline": ["error", { multiline: true }],
+    "key-spacing": "error",
+    "semi-spacing": "error",
+    "quote-props": ["error", "as-needed"],
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-namespace": "off",
+  },
+};
