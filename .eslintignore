@@ -6,3 +6,6 @@ dist
 # ignore root and include the packages folder.
 /*
 !packages
+
+*.js
+*.json
