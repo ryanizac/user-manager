@@ -1,0 +1,15 @@
+{
+  "name": "@user-manager/builder",
+  "description": "Local bundler for make builds",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/cli.ts --bundle --platform=node --target=node10.4 --format=cjs --packages=external --outfile=dist/index.js",
+    "postinstall": "npm run build"
+  },
+  "devDependencies": {
+    "@types/nodemon": "^1.19.2",
+    "esbuild": "^0.17.18",
+    "nodemon": "^2.0.22"
+  }
+}
