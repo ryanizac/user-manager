@@ -1,0 +1,6 @@
+{
+  "name": "@user-manager/domain",
+  "version": "1.0.0",
+  "description": "Domain of user manager",
+  "main": "src/index.ts"
+}
