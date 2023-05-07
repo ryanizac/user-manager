@@ -1,0 +1,8 @@
+{
+  "name": "@user-manager/data",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@user-manager/domain": "1.0.0"
+  }
+}
